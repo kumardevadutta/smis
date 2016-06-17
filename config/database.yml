@@ -26,5 +26,5 @@ production:
   pool: 5
   socket: /var/run/mysqld/mysqld.sock
   database: smis_production
-  username: root
+  username: smis_user
   password: smis@123$
