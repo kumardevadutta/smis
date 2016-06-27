@@ -11,7 +11,7 @@ class StudentsController < ApplicationController
   # GET /students/1
   # GET /students/1.json
   def show
-    redirect_to root_path
+    # redirect_to root_path
   end
 
   # GET /students/new
@@ -77,6 +77,6 @@ class StudentsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def student_params
-      params.require(:student).permit(:sname, :age, :roll, :addr, :mobile, :email, :dob)
+      params.require(:student).permit(:sname, :age, :roll, :addr, :mobile, :email, :dob, :image)
     end
 end

@@ -20,50 +20,57 @@
     <div class="controls">
       <%= f.text_field :sname, :class => 'form-control' %>
     </div>
-    <%= error_span(@student[:sname]) %>
+    <%# error_span(@student[:sname]) %>
   </div>
   <div class="control-group">
     <%= f.label :age, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :age, :class => 'form-control' %>
     </div>
-    <%= error_span(@student[:age]) %>
+    <%# error_span(@student[:age]) %>
   </div>
   <div class="control-group">
     <%= f.label :roll, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :roll, :class => 'form-control' %>
     </div>
-    <%= error_span(@student[:roll]) %>
+    <%# error_span(@student[:roll]) %>
   </div>
   <div class="control-group">
     <%= f.label :addr, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :addr, :class => 'form-control' %>
     </div>
-    <%= error_span(@student[:addr]) %>
+    <%# error_span(@student[:addr]) %>
   </div>
   <div class="control-group">
     <%= f.label :mobile, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :mobile, :class => 'form-control' %>
     </div>
-    <%= error_span(@student[:mobile]) %>
+    <%# error_span(@student[:mobile]) %>
   </div>
   <div class="control-group">
     <%= f.label :email, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :email, :class => 'form-control' %>
     </div>
-    <%= error_span(@student[:email]) %>
+    <%# error_span(@student[:email]) %>
   </div>
   <div class="control-group">
     <%= f.label :dob, :class => 'control-label' %>
     <div class="controls">
       <%= f.text_field :dob, :class => 'form-control' %>
     </div>
-    <%= error_span(@student[:dob]) %>
+    <%# error_span(@student[:dob]) %>
   </div>
+
+  <div>
+    <%= f.label :image %>
+    <%= f.file_field :image %>
+  </div>
+
+
 
 
   <%= f.submit nil, :class => 'btn btn-primary' %>
