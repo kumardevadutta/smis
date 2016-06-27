@@ -12,6 +12,5 @@ class Student < ActiveRecord::Base
 
 
 	def s3_credentials
-    	{:bucket => "smis-bucket", :access_key_id => "AKIAIW44OCSXYJTIGTQQ", :secret_access_key => "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"}
   	end
 end
